@@ -7,7 +7,7 @@ on:
 env:
   HARBOR_REGISTRY: ${{ vars.HARBOR_REGISTRY }}
   HARBOR_PROJECT: "skala26a-ai1"  # 하버에서 만든 프로젝트 이름을 적으세요 (예: skala-2025)
-  IMAGE_NAME: "A3028-my-app"          # 하버에 저장될 이미지 이름
+  IMAGE_NAME: "a3028-my-app"          # 하버에 저장될 이미지 이름
 
 jobs:
   build-and-push:
